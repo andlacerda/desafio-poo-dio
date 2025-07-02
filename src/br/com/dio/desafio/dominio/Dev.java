@@ -53,6 +53,11 @@ public class Dev {
         this.conteudosConcluidos = conteudosConcluidos;
     }
 
+    public void infoCursos() {
+        System.out.println("Conteúdos Inscritos do(a) " + nome + ": " + conteudosInscritos );
+        System.out.println("Conteúdos Concluídos do(a) " + nome + ": " + conteudosConcluidos );
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
